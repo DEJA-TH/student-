@@ -66,7 +66,7 @@
     <li class="dropdown">
     <a href="javascript:void(0)" class="drop">ดูรายชื่อคณะ</a>
     <div class="dropdown-content">
-    <a href=<?php echo" 'createxml.php'>สร้างไฟล์xml</a><br>"; ?>
+    <a href=<?php echo" 'payaban.php'>พยาบาลศาสตร์</a><br>"; ?>
     <a href=<?php echo" 'showxml.php'>ดูข้อมูลผู้สมัคร</a><br>"; ?>
     <a href=<?php echo"'search_home.php'>ค้นหาข้อมูลผู้สมัคร</a><br>"; ?>
     </div>

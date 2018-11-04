@@ -19,28 +19,24 @@ $mj2="เทคโนโลยีสารสนเทศ";
 $xml=simplexml_load_file("student.xml") or die("Error: Cannot create object"); 
 echo "<table border=\"1\">";
 echo "สาขาวิทยาการคอมพิวเตอร์<br>";
-//echo "$mj1<br>";
-echo "  <tr><td>No.<td>ID<td>Name<td>address<td>Tel<br>";
+echo "<tr><td>No.<td>ID<td>Name<td>address<td>Tel<br>";
 
 foreach($xml->children() as $students){
 
 if($students->major==$mj1){
 $num1++;
-echo "<tr><td>$num1" ; 
-echo "<td>".$students->id ; 
+echo "<tr><td>$num1"; 
+echo "<td>".$students->id; 
 echo "<td>".$students->name; 
 echo "<td>".$students->address; 
 echo "<td>".$students->tel;
-//echo "<td>".$students->major; 
 echo "<td><a href=\"edit.php?id=" . $students['id'] . "\">edit</a>";
 echo "<td><a href=\"removexml.php?id=" . $students['id'] . "\">delete</a>";
 }
 }
 echo "</table><br>";
-//it
 echo "<table border=\"1\">";
 echo "สาขาเทคโนโลยีสารสนเทศ<br>";
-//echo "$mj1<br>";
 echo "  <tr><td>No.<td>ID<td>Name<td>address<td>Tel<br>";
 
 foreach($xml->children() as $students){
@@ -52,14 +48,20 @@ echo "<td>".$students->id ;
 echo "<td>".$students->name; 
 echo "<td>".$students->address; 
 echo "<td>".$students->tel;
-//echo "<td>".$students->major; 
+
 echo "<td><a href=\"edit.php?id=" . $students['id'] . "\">edit</a>";
 echo "<td><a href=\"removexml.php?id=" . $students['id'] . "\">delete</a>";
 }
 }
 echo "</table>";
-?>
 
+echo "<table border=\"1\">";
+?>
 <br>
 </form>
-<a href="add_db.php">home</a>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<center>
+<a href="add_db.php">Home</a>
+</center>
