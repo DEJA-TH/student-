@@ -21,4 +21,6 @@ echo "<input name=\"num\" size=\"10\" value=\"$num\" hidden>";
 ?>
 
 </form>
-<<<a href="add_db.php">Home</a>
+<br><br><br>
+<center>
+<a href="add_db.php">home</a></center>

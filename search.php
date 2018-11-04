@@ -6,7 +6,7 @@
  color: #000000;
 }
 </style>
-<<<a href="add_db.php">Home</a>
+<a href="add_db.php">Home</a>
 <center><table border="1">
 
 <br>

@@ -1,5 +1,3 @@
-
-
 <?php
  $xml = simplexml_load_file('student.xml');
  if(isset($_POST['submitSave'])){
@@ -29,10 +27,10 @@ break;
 }
 ?>
 <form method="post">
-id : <input type="text" name="id" value="<?echo $id?>"><br>
- Name : <input type="text" name="name" value="<?echo $name?>"><br>
+  id : <input type="text" name="id" value="<?echo $id?>"><br>
+  Name : <input type="text" name="name" value="<?echo $name?>"><br>
   Address : <input type="text" name="address" value="<?echo $address?>"><br>
- Tel : <input type="text" name="tel" value="<?echo $tel?>"><br>
+  Tel : <input type="text" name="tel" value="<?echo $tel?>"><br>
   Major : <input type="text" name="major" value="<?echo $major?>"><br>
 
 

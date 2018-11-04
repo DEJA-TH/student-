@@ -7,8 +7,7 @@ $num=mysql_numrows($result);
 $i=0;
 
 $dom = new DomDocument('1.0','utf-8');
-//$dom->load('person.xml');
- $students = $dom->createElement('students'); // ครัง้ ที่สองไม่ต้องใส่
+ $students = $dom->createElement('students');
  $dom -> appendChild($students);
 
 while($i<$num){
@@ -42,4 +41,6 @@ $dom->saveXML();
  $dom->save('student.xml');
   Header("Location:add_db.php");
 ?>
-<a href="add_db.php">home</a>
+<br><br><br>
+<center>
+<a href="add_db.php">home</a></center>
