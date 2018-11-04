@@ -1,4 +1,5 @@
 <?php
+include "con_1.php";
  $xml = simplexml_load_file('student.xml');
  if(isset($_POST['submitSave'])){
  foreach($xml->student as $student){

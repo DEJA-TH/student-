@@ -1,4 +1,5 @@
 <?php
+include "con_1.php";
 $dom = new DomDocument();
 $dom->load("student.xml");
 $root = $dom->documentElement;

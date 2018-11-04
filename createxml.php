@@ -1,7 +1,7 @@
 <?php
 echo "ข้อมูลใน database<br>";
 include "con_1.php";
-$sql="select *from student";
+$sql="SELECT * FROM student";
 $result=mysql_query($sql);
 $num=mysql_numrows($result);
 $i=0;
@@ -20,19 +20,18 @@ $major=$rows['major'];
 echo "$id $name $address $tel $major<br>";
 ///
 $student=$dom->createElement('student');
-$student->setAttribute("id",$id);
+$student->setAttribute('id',$id);
 $students->appendChild($student);
 
 $id=$dom->createElement('id',$id);
 $student->appendChild($id);
- $name=$dom->createElement('name',$name);
+$name=$dom->createElement('name',$name);
 $student->appendChild($name);
- $address=$dom->createElement('address',$address);
+$address=$dom->createElement('address',$address);
 $student->appendChild($address);
- $tel=$dom->createElement('tel',$tel);
+$tel=$dom->createElement('tel',$tel);
 $student->appendChild($tel);
-
- $major=$dom->createElement('major',$major);
+$major=$dom->createElement('major',$major);
 $student->appendChild($major);
 
 $i++;

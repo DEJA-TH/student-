@@ -1,4 +1,4 @@
-<center><h2>ดูข้อมูลผู้สมัคร</h2></center><hr>
+<center><h2>สมัคร</h2></center><hr>
  เพิ่มข้อมูล 
 <?php
 

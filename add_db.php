@@ -60,15 +60,15 @@
 </head>
 <body>
     <ul>
-    <li><a href=<?php echo" 'showxml.php'>ดูข้อมูลผู้สมัคร</a><br>"; ?></li>
-    <li><a href=<?php echo" 'createxml.php'>สร้างไฟล์xml</a><br>"; ?></li>
+    <li><a href=<?php echo" 'showxml.php'>ผู้สมัครเรียน</a><br>"; ?></li>
+    <li><a href=<?php echo" 'createxml.php'>สร้างไฟล์</a><br>"; ?></li>
     <!-- <li></li> -->
     <li class="dropdown">
-    <a href="javascript:void(0)" class="drop">ดูรายชื่อคณะ</a>
+    <a href="javascript:void(0)" class="drop">ดูรายชื่อสาขา</a>
     <div class="dropdown-content">
     <a href=<?php echo" 'payaban.php'>พยาบาลศาสตร์</a><br>"; ?>
-    <a href=<?php echo" 'showxml.php'>ดูข้อมูลผู้สมัคร</a><br>"; ?>
-    <a href=<?php echo"'search_home.php'>ค้นหาข้อมูลผู้สมัคร</a><br>"; ?>
+    <a href=<?php echo" 'cs.php'>วิทยาการคอมพิวเตอร์</a><br>"; ?>
+    <a href=<?php echo"'it.php'>เทคโนโลยีสารสนเทศ</a><br>"; ?>
     </div>
     </li>
     </ul>

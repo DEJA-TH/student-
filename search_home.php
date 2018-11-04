@@ -5,6 +5,7 @@
 	ID <input name="id" size="40">
 	<input type="submit" value="Search">
 <?php
+include "con_1.php";
 $num=0;
 $xml= simplexml_load_file("student.xml");
 foreach($xml->children() as $student)
