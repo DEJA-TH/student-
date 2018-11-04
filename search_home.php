@@ -4,7 +4,7 @@
 	<form action="search.php" method="post">
 	ID <input name="id" size="40">
 	<input type="submit" value="Search">
-<?
+<?php
 $num=0;
 $xml= simplexml_load_file("student.xml");
 foreach($xml->children() as $student)
@@ -16,9 +16,6 @@ $tel=$student->tel;
 $major=$student->major;
 $num++;
 }
-
-
-//echo"$num";*/
 echo "<input name=\"num\" size=\"10\" value=\"$num\" hidden>";
 
 ?>

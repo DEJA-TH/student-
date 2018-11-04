@@ -11,7 +11,7 @@
 
 <br>
 <table border="1">
-<?
+<?php
 $x=0;
 $id=$_POST['id'];
 $num=$_POST['num'];

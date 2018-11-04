@@ -1,4 +1,4 @@
-<?
+<?php
 echo "ข้อมูลใน database<br>";
 include "con_1.php";
 $sql="select *from student";

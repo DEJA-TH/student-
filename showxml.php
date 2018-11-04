@@ -1,4 +1,3 @@
-<<<a href="add_db.php">home</a>
 <center><h2>ดูข้อมูลผู้สมัคร</h2></center><hr>
  เพิ่มข้อมูล 
 <?php
@@ -63,3 +62,4 @@ echo "</table>";
 
 <br>
 </form>
+<a href="add_db.php">home</a>
